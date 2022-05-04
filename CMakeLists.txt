@@ -8,6 +8,7 @@ include_directories(fsw/mission_inc)
 include_directories(fsw/platform_inc)
 include_directories(${ci_lab_MISSION_DIR}/fsw/platform_inc)
 include_directories(${sample_app_MISSION_DIR}/fsw/platform_inc)
+include_directories(${commsExample_MISSION_DIR}/Sources/commsExample)
 
 aux_source_directory(fsw/src APP_SRC_FILES)
 
